@@ -1,0 +1,175 @@
+body, html {
+  height: 100%;
+  margin: 0; 
+  
+}
+
+* {
+  box-sizing: border-box;
+  
+}
+
+
+      
+.bg-image {
+        background-image: url(images/234.jpg);
+      
+
+        filter: blur(8px);
+        -webkit-filter: blur(6px);
+      
+     
+        height: 100%;
+      
+      
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      
+
+.bg-text {
+        background-color: rgb(0,0,0); 
+        background-color: rgba(0,0,0, 0.4); 
+        color: white;
+        font-weight: bold;
+        border: 3px solid #f1f1f1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 80%;
+        padding: 10px;
+        text-align: center;
+      }
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 100px;
+  text-align: center;
+  float: left;
+  box-sizing: border-box;
+  font-family: arial;
+  transform:translate(0, -40%);
+}
+
+
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 9px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.about{
+
+  background: #221F1F; 
+  text-align: center; 
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: -5px 3px 10px 10px;
+  color:white; 
+  text-align:center;
+  border-bottom:2px solid rgba(0,0,0, 0.4);
+  border-bottom:2px solid rgba(0,0,0, 0.4);
+  border-right: 2px solid rgba(0,0,0, 0.4);
+  padding:10px;
+  margin:50px;
+  transform:translate(0, -170%);
+  
+
+}
+
+
+
+.footer { 
+  background:#222222;
+  width:100%; 
+  height: 60px;
+  float:left;
+  color:white;
+   font-family:arial;
+  margin: 0;
+  margin-top: 400px;
+  }
+
+.footer_container{
+  width:768px;
+   height: 60px; 
+   margin:0px auto;
+  }
+
+.footer-font{
+  font: italic 22px tahoma; 
+  transform:translate(40%, 50%);
+   }
+
+
+
+ .cubuk{ 
+    border-left: 5px solid #000;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    margin-top: 470px;
+  }
+
+
+
+ .foto-1{
+   height: 516px;
+   width: 616px;
+   background:black;
+   margin : 850px 10px 10px 870px;
+    border: 10px solid #221F1F;
+   box-shadow: -20px 15px 10px #000; 
+   background: url(images/OYHIVS1.jpg);
+}
+
+  .foto-2{
+    height: 316px; 
+    width: 416px;
+     background:white; 
+     margin: -390px 0 0 630px;
+     border:8px solid #221F1F;
+      box-shadow: -5px 5px 3px#000;
+      
+    }
+
+
+    .tema{
+      height: 216px; 
+      width: 416px;
+       margin: -490px 0 0 30px;
+       border:8px solid #221F1F;
+       box-shadow: 20px 15px 10px #000; 
+      background-image: url(images/ds.png);
+        
+      }
+
+

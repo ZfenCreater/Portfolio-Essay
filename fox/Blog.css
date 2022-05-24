@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.orta{
+    height: 80%; 
+    background: url("images/fvmin.jpg") center no-repeat;
+}
+.ortasag{
+    display:block;
+    text-decoration: none;  
+    font: bold 25px tahoma; 
+    color:white; 
+    float: left;
+    margin: 250px 0 0 1010px
+}
+.ortayazi{
+    width: 400px; 
+    height: 100px; 
+    background: #221F1F; 
+    text-align: center; 
+    border-radius: 5px 5px 25px 25px; 
+    box-shadow: -5px 3px 1px; 
+    padding: 30px;
+}
+
+
+.icerik-box-1{
+    display:block;
+    text-decoration: none; 
+    float: left;
+    margin: 39px;
+}
+.icerik-yazi-1{
+    width: 300px; 
+    height: 400px; 
+    background: #221F1F; 
+    border-radius: 15px 15px 15px 15px;
+    padding: 50px;
+    box-shadow: -5px 3px 1px; 
+    color:#fff; 
+}
+
+.baslık{
+    font: bold 15px tahoma; 
+    color:white; 
+    text-align: center; 
+}
+
+.metin{
+    font: 15px tahoma; 
+    color:white;  
+    text-align: left; 
+}
+
+.open{
+    transform: translate(28%,20%);
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    background: #fff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px 15px;
+    outline: none;
+}
+
+#blog{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.647);
+    width: 1500px;
+    height: 85%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+
+#blog:target{
+    display: block;
+}
+
+.close{
+    position: absolute;
+    bottom: 5px;
+    right: 7px;
+    border: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    margin: 40px;
+}
+
+.color:hover{
+    transition: .2s;
+    background: #221F1F;
+}
+
+
+.resim {
+    margin: auto;
+    width: 50%;
+    padding: 50px;
+}
+
+.blog-yazi{
+    position: absolute;
+    right: 20%;
+    top: 20px;
+}
+
